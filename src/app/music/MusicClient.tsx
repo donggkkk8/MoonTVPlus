@@ -2082,7 +2082,7 @@ export default function MusicClient({ children: _children }: { children?: React.
                     <h2 className="min-w-0 truncate text-center text-base md:text-xl lg:text-2xl font-bold text-white">{currentSong.name}</h2>
                     <SourcePill source={currentSong.platform} variant="accent" />
                   </div>
-                  <p className="text-xs md:text-sm lg:text-base text-zinc-400 line-clamp-1 text-center">{currentSong.artist}</p>
+                  <p className="pb-px text-center text-xs leading-5 text-zinc-400 line-clamp-1 md:text-sm md:leading-6 lg:text-base lg:leading-7">{currentSong.artist}</p>
                 </div>
               </div>
 
